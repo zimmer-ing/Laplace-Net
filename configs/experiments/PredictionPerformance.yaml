@@ -1,0 +1,13 @@
+seed: 42
+wanted_device: "cuda"          # Device to use for training and evaluation
+hyperparameter_tuning:
+  n_trials: 100     # Number of hyperparameter tuning trials
+  n_jobs: -1         # Number of parallel jobs for hyperparameter tuning (-1 for all CPUs or jobs_per_gpu * num_gpus)
+  jobs_per_gpu: 2   # Number of parallel jobs per GPU in case of GPU usage
+  num_epochs: 3500  # Number of epochs to train the model for each trial
+  use_pruner: false  # Whether to use pruner for early stopping
+  min_epochs: 2500   # Minimum number of epochs to train the model for each trial before the pruner starts
+  reduction_factor: 2  # strictness of the pruner (lower is less strict)
+
+num_epochs: 5000
+batch_size: 512

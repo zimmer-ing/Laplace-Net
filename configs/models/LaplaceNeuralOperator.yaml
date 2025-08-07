@@ -1,0 +1,29 @@
+width:
+  default: 4
+  search_space:
+    type: "int"
+    low: 2
+    high: 8
+    step: 2
+
+modes:
+  default: 16
+  search_space:
+    type: "int"
+    low: 8
+    high: 84
+
+activation_fn:
+  default: "sin"
+  search_space:
+    type: "categorical"
+    choices: ["sin", "tanh"]
+
+
+# Global training parameter for the model
+learning_rate:
+  default: 0.001
+  search_space:
+    type: "loguniform"
+    low: 1e-4
+    high: 1e-2

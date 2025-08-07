@@ -1,0 +1,45 @@
+# Combination Rules YAML Configuration
+# This file defines specific rules for dataset-model-experiment combinations.
+# Each combination can adjust configurations like limiting features or enabling custom processing.
+# Replace "DatasetName", "ModelName", and "ExperimentName" with your actual names as needed.
+
+DatasetName1:
+  ModelName1:
+    ExperimentName1:
+      adjust_x_features: <int>  # Limit the number of x features to a specified number
+      custom_processing: <bool> # Enable or disable custom processing for this combination
+
+    ExperimentName2:
+      adjust_x_features: <int>  # Another example of feature adjustment for a different experiment
+      custom_processing: <bool> # Different setting for custom processing
+
+  ModelName2:
+    ExperimentName1:
+      adjust_x_features: <int>  # Feature adjustment for a different model-experiment combination
+      custom_processing: <bool> # Custom processing toggle
+
+DatasetName2:
+  ModelName1:
+    ExperimentName1:
+      adjust_x_features: <int>  # Feature adjustment for another dataset-model-experiment
+      custom_processing: <bool> # Custom processing toggle
+
+    ExperimentName3:
+      adjust_x_features: <int>  # Unique configuration for a different experiment
+      custom_processing: <bool> # Custom processing toggle
+
+  ModelName3:
+    ExperimentName1:
+      adjust_x_features: <int>  # Feature adjustment for a third model
+      custom_processing: <bool> # Custom processing toggle
+
+# Example structure (replace placeholders with actual names):
+# LeakageDataset:
+#   Seq2SeqLSTM:
+#     ADPerformanceEvaluation:
+#       adjust_x_features: 5       # Limit the number of x features to 5 for this dataset-model-experiment
+#       custom_processing: true    # Enable custom processing
+#   AnotherModel:
+#     ADPerformanceEvaluation:
+#       adjust_x_features: 10      # Limit x features to 10 for this dataset-model-experiment
+#       custom_processing: false   # Disable custom processing

@@ -1,0 +1,6 @@
+/.idea
+*.pyc
+/src/experiments/__pycache__
+/src/experiments/__pycache__
+src/utils/__pycache__/helpers.cpython-312.pyc
+*.pyc

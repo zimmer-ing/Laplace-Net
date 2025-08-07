@@ -1,0 +1,7 @@
+stride: 10
+history_length: 50
+forecast_length: 500
+batch_size: 256
+dim_x: 1 # Number of features in the input data (excitations)
+dim_y: 1 # Number of features in the output data (responses)
+zero_initial_conditions: True

@@ -1,0 +1,27 @@
+hidden_size:          # Default value for the number of units in LSTM layers
+  default: 128
+  search_space:
+    type: "int"
+    low: 8
+    high: 512
+    step: 8
+
+num_layers:           # Default value and search space for the number of LSTM layers
+  default: 2
+  search_space:
+    type: "int"
+    low: 1
+    high: 5
+    step: 1
+
+dropout:              # Default dropout probability
+  default: 0.0
+
+
+learning_rate:        # Default value and search space for learning rate
+  default: 0.001
+  search_space:
+    type: "loguniform"
+    low: 1e-6
+    high: 1e-2
+
