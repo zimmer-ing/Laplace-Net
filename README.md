@@ -12,13 +12,14 @@ ECML PKDD 2025, Porto, Portugal
 If you use this code or the datasets in your research, please cite our paper:
 
 ```bibtex
-@inproceedings{zimmering2025LPNet,
-  title={Breaking Free: Decoupling Forced Systems with Laplace Neural Networks},
-  author={Zimmering, Bernd and Coelho, Cecília and Gupta, Vaibhav and Maleshkova, Maria and Niggemann, Oliver},
-  booktitle={European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD)},
-  year={2025},
-  address={Porto, Portugal},
-  publisher={Springer}
+@inproceedings{zimmering2025-lpnet,
+  author    = {Bernd Zimmering and Cec{\'\i}lia Coelho and Vaibhav Gupta and Maria Maleshkova and Oliver Niggemann},
+  title     = {Breaking Free: Decoupling Forced Systems with Laplace Neural Networks},
+  booktitle = {Proceedings of the European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD 2025)},
+  address   = {Porto, Portugal},
+  year      = {2025},
+  note      = {to appear; see preprint arXiv:2503.13158},
+  publisher = {Springer}
 }
 ```
 ---
