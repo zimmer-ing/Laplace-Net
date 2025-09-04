@@ -5,8 +5,10 @@ This repository provides the official implementation, experimental setup, and su
 **Breaking Free: Decoupling Forced Systems with Laplace Neural Networks**  
 Bernd Zimmering, Cecília Coelho, Vaibhav Gupta, Maria Maleshkova, Oliver Niggemann  
 Institute for Artificial Intelligence, Helmut Schmidt University Hamburg, Germany  
-ECML PKDD 2025, Porto, Portugal  
-[Preprint here](https://ecmlpkdd-storage.s3.eu-central-1.amazonaws.com/preprints/2025/research/preprint_ecml_pkdd_2025_research_583.pdf)
+ECML PKDD 2025, Porto, Portugal 
+
+[Author’s accepted manuscript (camera-ready)](https://ecmlpkdd-storage.s3.eu-central-1.amazonaws.com/preprints/2025/research/preprint_ecml_pkdd_2025_research_583.pdf)
+[Preprint](https://arxiv.org/abs/2503.13158)
 
 ## Citation
 If you use this code or the datasets in your research, please cite our paper:
