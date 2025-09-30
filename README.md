@@ -2,28 +2,28 @@
 
 This repository provides the official implementation, experimental setup, and supplementary material for our ECML PKDD 2025 paper:
 
-**Breaking Free: Decoupling Forced Systems with Laplace Neural Networks**  
-Bernd Zimmering, Cecília Coelho, Vaibhav Gupta, Maria Maleshkova, Oliver Niggemann  
-Institute for Artificial Intelligence, Helmut Schmidt University Hamburg, Germany  
-ECML PKDD 2025, Porto, Portugal 
+Zimmering, B., Coelho, C., Gupta, V., Maleshkova, M., Niggemann, O. (2026). Breaking Free: Decoupling Forced Systems with Laplace Neural Networks. In: Ribeiro, R.P., et al. Machine Learning and Knowledge Discovery in Databases. Research Track. ECML PKDD 2025. Lecture Notes in Computer Science(), vol 16019. Springer, Cham. https://doi.org/10.1007/978-3-032-06109-6_15
 
-[Author’s accepted manuscript (camera-ready)](https://ecmlpkdd-storage.s3.eu-central-1.amazonaws.com/preprints/2025/research/preprint_ecml_pkdd_2025_research_583.pdf)
+[Published Paper (open access)](https://doi.org/10.1007/978-3-032-06109-6_15)
 
-[Preprint](https://arxiv.org/abs/2503.13158)
 
 ## Citation
 If you use this code or the datasets in your research, please cite our paper:
 
 ```bibtex
-@inproceedings{zimmering2025-lpnet,
-  author    = {Bernd Zimmering and Cec{\'\i}lia Coelho and Vaibhav Gupta and Maria Maleshkova and Oliver Niggemann},
-  title     = {Breaking Free: Decoupling Forced Systems with Laplace Neural Networks},
-  booktitle = {Proceedings of the European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD 2025)},
-  address   = {Porto, Portugal},
-  year      = {2025},
-  note      = {to appear; see preprint arXiv:2503.13158},
-  publisher = {Springer}
+@inproceedings{zimmering2026,
+  title = {Breaking {{Free}}: {{Decoupling Forced Systems}} with~{{Laplace Neural Networks}}},
+  booktitle = {Machine {{Learning}} and {{Knowledge Discovery}} in {{Databases}}. {{Research Track}}},
+  author = {Zimmering, Bernd and Coelho, Cec{\'i}lia and Gupta, Vaibhav and Maleshkova, Maria and Niggemann, Oliver},
+  editor = {Ribeiro, Rita P. and Pfahringer, Bernhard and Japkowicz, Nathalie and Larra{\~n}aga, Pedro and Jorge, Al{\'i}pio M. and Soares, Carlos and Abreu, Pedro H. and Gama, Jo{\~a}o},
+  year = {2026},
+  pages = {252--269},
+  publisher = {Springer Nature Switzerland},
+  address = {Cham},
+  abstract = {Forecasting the behaviour of industrial robots, power grids or pandemics under changing external inputs requires accurate dynamical models that can adapt to varying signals and capture long-term effects such as delays or memory. While recent neural approaches address some of these challenges individually, their reliance on computationally intensive solvers and their black-box nature limit their practical utility. In this work, we propose Laplace-Net, a decoupled, solver-free neural framework for learning forced and delay-aware dynamical systems. It uses the Laplace transform to (i) bypass computationally intensive solvers, (ii) enable the learning of delays and memory effects and (iii) decompose each system into interpretable control-theoretic components. Laplace-Net also enhances transferability, as its modular structure allows for targeted re-training of individual components to new system setups or environments. Experimental results on eight benchmark datasets--including linear, nonlinear and delayed systems--demonstrate the method's improved accuracy and robustness compared to state-of-the-art approaches, particularly in handling complex and previously unseen inputs.},
+  isbn = {978-3-032-06109-6},
 }
+
 ```
 ---
 
