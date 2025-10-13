@@ -116,13 +116,14 @@ This project uses eight benchmark datasets for the evaluation of Laplace-Net, LN
 
 If you use these datasets or this code, please cite:
 
-- **Laplace-Net (this work):**  
-  Bernd Zimmering, Cecília Coelho, Vaibhav Gupta, Maria Maleshkova, Oliver Niggemann.  
-  "Breaking Free: Decoupling Forced Systems with Laplace Neural Networks."  
-  European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD), Porto, Portugal, 2025.
+**Laplace-Net (this work):**  
+    Zimmering, B., Coelho, C., Gupta, V., Maleshkova, M., Niggemann, O. (2026).  
+    Breaking Free: Decoupling Forced Systems with Laplace Neural Networks.  
+    In: Ribeiro, R.P., et al. Machine Learning and Knowledge Discovery in Databases.   
+    Research Track - ECML PKDD 2025. Lecture Notes in Computer Science, vol 16019. Springer, Cham.  
 
 
-- **Laplace Neural Operator (LNO) datasets:**  
+**The datasets from the original Laplace Neural Operator (LNO) paper hould be cited as:**  
   Qianying Cao, Somdatta Goswami, George Em Karniadakis.  
   "Laplace Neural Operator for Solving Differential Equations."  
   [Nature Machine Intelligence 6(6), 631–640 (2024)](https://doi.org/10.1038/s42256-024-00844-4).
